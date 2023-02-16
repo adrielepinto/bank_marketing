@@ -1,3 +1,3 @@
 # Bank Marketing Strategy
+![banking](https://user-images.githubusercontent.com/97919969/219498934-7402fc5d-32fd-4a46-a425-6152d24827c3.jpeg)
 
-![bank jpg](https://user-images.githubusercontent.com/97919969/212332764-01b6c46b-815e-45c5-9dfb-f7001cbc986a.png)
