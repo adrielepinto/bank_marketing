@@ -13,6 +13,19 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 - Transfer knowledge to international bank Data Scientists.
 - Recommend 3 business levers for each customer segment.
 
+ # Solution Development
+ - 1.0  Train a Machine Learning to define a metric to verify the model performance.
+ - 2.0 Filter the variables that best fit to the model.
+ - 3.0 Try to create features that will help the model perform.
+ - 4.0 Indetify and remove outliers if necessary.
+ - 5.0 Verify the space dimensionality. ( Embedding Definition ).
+ - 6.0 Select the best features to the model.
+ - 7.0 Verify whitch tested model had the best performance with the data.
+ - 8.0 Perform a analysis of the clustres defined by the model.
+ - 9.0 Perform exploratory data analysis with the insights to report to the business team.
+ - 10.0 criate the architecture at AWS and  put the model into production.
+ - 11.0 Teach the team how to use the model
+
 # Attribute List:
 ###### - ID : Unique Identification Code of Credit Card holder.
 ###### - BALANCE : How much the customer spent on the credit card.
@@ -32,3 +45,13 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 ###### - MIN_PAYMENTS : Minimum amount of payments made by user
 ###### - FULL_PAYMENT : Percent of full payment paid by user
 ###### - TENURE : Tenure of credit card service for user
+
+
+# Three Data Insigths
+
+
+H3. 90% of customers using the credit card.
+
+H5 - 10% of cutomers takes the cash advance.
+
+H6 - 30% of Customers just use card to borrow cash.
