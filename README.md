@@ -2,9 +2,8 @@
 ![banking](https://user-images.githubusercontent.com/97919969/219498934-7402fc5d-32fd-4a46-a425-6152d24827c3.jpeg)
 
 
-
-This case requires to develop a customer segmentation to define marketing strategy. The
-sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioral variables. 
+# Business Problem
+A leading bank wants to develop a customer segmentation to launch marketing campaign to specific group of customers. The bank has provided a Dataset summarized the usage behavior of about 9000 active credit card holders during the last 6 months.
 
 ###### - ID : Unique Identification Code of Credit Card holder.
 ###### - BALANCE : How much the customer spent on the credit card.
