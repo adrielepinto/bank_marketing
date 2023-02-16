@@ -5,6 +5,15 @@
 # Business Problem
 A leading bank wants to develop a customer segmentation to launch marketing campaign to specific group of customers. The bank has provided a Dataset summarized the usage behavior of about 9000 active credit card holders during the last 6 months.
 
+ # Solution Strategy
+ 
+- Create customer segmentation based on clear selection criteria.
+- Make customer segmentation accessible to the operations team.
+- Teach the operations team how to use the solution.
+- Transfer knowledge to international bank Data Scientists.
+- Recommend 3 business levers for each customer segment.
+
+
 ###### - ID : Unique Identification Code of Credit Card holder.
 ###### - BALANCE : How much the customer spent on the credit card.
 ###### - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
