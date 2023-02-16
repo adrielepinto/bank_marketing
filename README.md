@@ -6,7 +6,7 @@
 This case requires to develop a customer segmentation to define marketing strategy. The
 sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioral variables. 
 
-#### - ID : Unique Identification Code of Credit Card holder.
+###### - ID : Unique Identification Code of Credit Card holder.
 #### - BALANCE : How much the customer spent on the credit card.
 #### - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
 #### - PURCHASES : Amount of purchases made from account.
