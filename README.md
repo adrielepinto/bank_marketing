@@ -13,7 +13,7 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 - Transfer knowledge to international bank Data Scientists.
 - Recommend 3 business levers for each customer segment.
 
-
+# Attribute List:
 ###### - ID : Unique Identification Code of Credit Card holder.
 ###### - BALANCE : How much the customer spent on the credit card.
 ###### - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
