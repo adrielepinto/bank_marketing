@@ -104,9 +104,11 @@ This is the real result of how much return each cluster will bring to the compan
 # Technologies:
 - Jupyter Notebook
 - Python
+- Papermill
+- Cronjob
 # Deploy into Production AWS
 - S3
 - EC2
-- Papermill
+- SqlAlquemi
 - Metabase
 
