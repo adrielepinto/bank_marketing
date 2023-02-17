@@ -51,6 +51,7 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 
 - NA - Minimum Payment had 313 NA's, I assumed as 0 for not lose 313 customers whitch can be valueble customer.
 - Outliers - On Outliers analysis, I I found very disbelieving values, such as customers who paid a minimum payment about of 8k, whitch doesn't make sense, since theres no payments made over than 50721.48. So, for a best model acuracy I removed the outliers.
+- The feature selection was made by using the correlation map.
 
 # Three Data Insigths
 
