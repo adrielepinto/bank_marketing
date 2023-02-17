@@ -90,5 +90,4 @@ The model performance result is separated from the database into nine clusters, 
 # Model Performance Results
 <img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png">
 
-Este é
-<img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png"> o resultadp real do quanto de retorno cada cluster vai trazer 
+This is the real result of how much return each cluster will bring to the company. In view of this, it is easy to identify which customers actually pay the company's bills.
