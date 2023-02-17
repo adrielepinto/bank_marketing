@@ -46,6 +46,9 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 ###### - FULL_PAYMENT : Percent of full payment paid by user
 ###### - TENURE : Tenure of credit card service for user
 
+# Assumptions:
+- NA - Minimum Payment had 313 NA's, I assumed as 0 for not lose 313 customers whitch can be valueble customer.
+- Outliers - On Outliers analysis, I I found very disbelieving values, such as customers who paid a minimum payment about of 8k, whitch doesn't make sense, since 
 
 # Three Data Insigths
 
