@@ -95,8 +95,11 @@ This is the real result of how much return each cluster will bring to the compan
 
 # Business Levers:
 - 1. There are 1642 customers who use their credit card just for purchases only. The Marketing team could offer/create loan services instead of offering credit cards to these customers. in which will lower the cost of acquiring more cards.
-  
-- 2. O cluster classificado como 5, representa 36% da receita da empresa. The Marketing team could offer premios ou cash back  
+- 
+- Cluster 0 are the customers who buy the most quantity of products, however it is the one that brings the least value of revenue to the company. These customers are likely to buy cheap products, so the marketing team could offer slightly higher priced products to increase the bank's revenue.
+- 
+- 2. The cluster classified as 5 represents 36% of the company's revenue. The Marketing team could offer awards or cash back to retain these customers.
+ 
 # How to access the Model.
 
 # Conclusion
