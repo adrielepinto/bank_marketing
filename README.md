@@ -91,3 +91,9 @@ The model performance result is separated from the database into nine clusters, 
 <img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png">
 
 This is the real result of how much return each cluster will bring to the company. In view of this, it is easy to identify which customers actually pay the company's bills.
+
+
+# Business Levers:
+- 1. There are 1642 customers who use their credit card just for purchases only. The Marketing team could offer/create loan services instead of offering credit cards to these customers. in which will lower the cost of acquiring more cards.
+  
+- 2. O cluster classificado como 5, representa 36% da receita da empresa. The Marketing team could offer premios ou cash back  
