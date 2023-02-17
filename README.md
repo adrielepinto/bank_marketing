@@ -50,6 +50,7 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 
 
 - NA - Minimum Payment had 313 NA's, I assumed as 0 for not lose 313 customers whitch can be valueble customer.
+- Gross Revenue Variable - I calculated gross revenue assuming that the bank receives 3% of the value of each transaction.
 - Outliers - On Outliers analysis, I I found very disbelieving values, such as customers who paid a minimum payment about of 8k, whitch doesn't make sense, since theres no payments made over than 50721.48. So, for a best model acuracy I removed the outliers.
 - The feature selection was made by using the correlation map.
 
@@ -84,3 +85,10 @@ False - 21% of customers are using the card just to borrow cash.
 
 
 The model performance result is separated from the database into nine clusters, according to the similarities of each customer. Towards of all tested machine learning tools, the GMMM has showed a good metric for the nine clusters. However, the Davies-Bouldin metric presents a considerably excellent performance in comparison with the other tested models. HC and KMeans also performed considerably well, but unfortunately these values are for fifteen clusters, which will make it difficult for the market team to manage so many clusters. Therefore, the model applied for the final clustering is the Davies-Bouldin score.
+
+
+# Model Performance Results
+<img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png">
+
+Este é
+<img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png"> o resultadp real do quanto de retorno cada cluster vai trazer 
