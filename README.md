@@ -51,7 +51,18 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 
 
 H3. 90% of customers using the credit card.
+<img width="674" alt="Screen Shot 2023-02-16 at 3 53 08 PM" src="https://user-images.githubusercontent.com/97919969/219514216-cc6dbf13-d074-4682-a8d4-aa27f07e9d62.png">
+
+False - Just 76.29% Are using the credit card. There are 23% of customers from database tht aren't using the credit card for purchases. 
 
 H5 - 10% of cutomers takes the cash advance.
+<img width="771" alt="Screen Shot 2023-02-16 at 3 58 00 PM" src="https://user-images.githubusercontent.com/97919969/219514832-3bd2b270-2b55-45a4-ac90-538d6df7fdca.png">
+
+
+False - 46.95% of Customers are taking the cash adv.  Almost half of the customers are using the credit card as loan.
 
 H6 - 30% of Customers just use card to borrow cash.
+<img width="959" alt="Screen Shot 2023-02-16 at 4 01 55 PM" src="https://user-images.githubusercontent.com/97919969/219515269-5aecf8ab-4540-444f-9a44-07ea3f1eca97.png">
+
+
+False - 21% of customers are using the card just to borrow cash.  
