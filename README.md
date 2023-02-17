@@ -97,3 +97,10 @@ This is the real result of how much return each cluster will bring to the compan
 - 1. There are 1642 customers who use their credit card just for purchases only. The Marketing team could offer/create loan services instead of offering credit cards to these customers. in which will lower the cost of acquiring more cards.
   
 - 2. O cluster classificado como 5, representa 36% da receita da empresa. The Marketing team could offer premios ou cash back  
+# How to access the Model.
+
+# Conclusion
+
+# Technologies:
+
+# Deploy into Production
