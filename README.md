@@ -66,3 +66,10 @@ H6 - 30% of Customers just use card to borrow cash.
 
 
 False - 21% of customers are using the card just to borrow cash.  
+ # Tested Machine Learning Models
+ 
+ - KMeans;
+ - Davies-Bouldin score;
+ - DBScan
+ - Hierarchical (HC); 
+ - Gaussian Mixture Model (GMM)
