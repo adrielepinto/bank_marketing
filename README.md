@@ -51,8 +51,8 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 
 
 - Payments variable Ex:
- Fatura total = 300
- pagamento minimi = 2000
+<!--  Fatura total = 300 -->
+<!--  pagamento minimi = 2000 -->
  Pagamento efetivo = 2500
 
   Payment = 500
