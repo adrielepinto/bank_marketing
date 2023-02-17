@@ -53,11 +53,11 @@ A leading bank wants to develop a customer segmentation to launch marketing camp
 - Payments variable Ex:
 <!--  Fatura total = 300 -->
 <!--  pagamento minimi = 2000 -->
- Pagamento efetivo = 2500
+<!--  Pagamento efetivo = 2500 -->
 
-  Payment = 500
-  Minimum Payment =  2000
-  pagamento total = Payment + Minimum Payment = 2500
+<!--   Payment = 500 -->
+<!--   Minimum Payment =  2000 -->
+<!--   pagamento total = Payment + Minimum Payment = 2500 -->
 
 - NA - Minimum Payment had 313 NA's, I assumed as 0 for not lose 313 customers whitch can be valueble customer.
 - Outliers - On Outliers analysis, I I found very disbelieving values, such as customers who paid a minimum payment about of 8k, whitch doesn't make sense, since theres no payments made over than 50721.48. So, for a best model acuracy I removed the outliers.
