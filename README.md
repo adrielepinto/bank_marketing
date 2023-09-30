@@ -107,7 +107,7 @@ H6 - 30% of Customers just use card to borrow cash.
 
 
 False - 21% of customers are using the card just to borrow cash.  
- # Tested Machine Learning Models
+ # 5.0 Tested Machine Learning Models
  
  - KMeans;
  - Davies-Bouldin score;
@@ -115,37 +115,28 @@ False - 21% of customers are using the card just to borrow cash.
  - Hierarchical (HC); 
  - Gaussian Mixture Model (GMM)
  - 
-# Machine Learning Models Performance
+## 7.0 Machine Learning Models Performance
 <img width="1051" alt="Screen Shot 2023-02-16 at 4 12 48 PM" src="https://user-images.githubusercontent.com/97919969/219516779-ecb096fa-bd02-4816-9cfb-7ec2c37815cf.png">
 
 
 The model performance result is separated from the database into nine clusters, according to the similarities of each customer. Towards of all tested machine learning tools, the GMMM has showed a good metric for the nine clusters. However, the Davies-Bouldin metric presents a considerably excellent performance in comparison with the other tested models. HC and KMeans also performed considerably well, but unfortunately these values are for fifteen clusters, which will make it difficult for the market team to manage so many clusters. Therefore, the model applied for the final clustering is the Davies-Bouldin score.
 
 
-# Model Performance Results
+# 8.0 Model Performance Results
 <img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png">
 
 This is the real result of how much return each cluster will bring to the company. In view of this, it is easy to identify which customers actually pay the company's bills.
 
 
-# Business Levers:
+# 9.0  Business Levers:
 - 1. There are 1642 customers who use their credit card just for purchases only. The Marketing team could offer/create loan services instead of offering credit cards to these customers. in which will lower the cost of acquiring more cards.
-- 
+
 - Cluster 0 are the customers who buy the most quantity of products, however it is the one that brings the least value of revenue to the company. These customers are likely to buy cheap products, so the marketing team could offer slightly higher priced products to increase the bank's revenue.
-- 
+
 - 2. The cluster classified as 5 represents 36% of the company's revenue. The Marketing team could offer awards or cash back to retain these customers.
  
-# How to access the Model.
 
-# Conclusion
-
-# Technologies:
+# 1.0 Tools:
 - Jupyter Notebook
 - Python
-- Papermill
-- Cronjob
-# Deploy into Production AWS
-- S3
-- EC2
-- Metabase
-
+- Pandas, Numpy, Sklearn, Seaborn, Matplotlib Libraries
