@@ -4,17 +4,41 @@
 NOTE: The business context is fictitious, however all planning and development of the solution is implemented following all the steps of a real market project. You can follow the entire development of the project on notebook [c9.0-pa006-EDA.ipynb](https://github.com/adrielepinto/bank_marketing/blob/bank/notebooks/c9.0-pa006-EDA.ipynb)
 
 # 1.0  Business Problem
-A leading bank wants to develop a customer segmentation to launch marketing campaign to specific group of customers. The bank has provided a Dataset summarized the usage behavior of about 9000 active credit card holders during the last 6 months.
 
- # Solution Strategy
+International Bank is an international bank that provides financial products, such as loans, current accounts, savings accounts, investment options, credit cards, etc.
+  Every quarter of the year, leaders meet to decide the company's objectives for the next 3 months. At this last meeting, one of the goals decided was the creation of a marketing strategy to approach customers who use credit cards.
+The company has a set of data on the usage behavior of approximately 9000 active credit card users over the last 6 months and the file is at the customer level and has 18 behavioral variables.
+
+Therefore, it was decided to create a customer segmentation that will direct the marketing strategy and the expected results of this work are:
+
+- 1.Create customer segmentation based on clear selection criteria.
+- 2. Make customer segmentation accessible to the operations team.
+- 3. Recommend 2-3 business levers for each customer segment.
  
-- Create customer segmentation based on clear selection criteria.
-- Make customer segmentation accessible to the operations team.
-- Teach the operations team how to use the solution.
-- Transfer knowledge to international bank Data Scientists.
-- Recommend 3 business levers for each customer segment.
+## 1.1 Business Understanding
 
- # Solution Development
+Business Problem/Question: What?
+
+- Analyze customers who has credit cards.
+
+Root Cause of the Problem: Why carry out this project?
+
+- Carry out strategic marketing for each type of customer.
+
+## 1.2 Data
+The data for this project is available on the [Kaggle platform](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset).
+
+# 2.0 Solution Planning
+ 
+The technique used to solve this problem was end-to-end method.
+
+This process, objectively and quickly, allows you to deliver value to the business.
+In the first cycle of the project, surface cleaning is carried out, an algorithm is chosen to model the data, and a metric is chosen to measure how much the model is improving or worsening. The objective is that in each cycle, modifications are made to the project to improve the accuracy of the model. Therefore, in the first cycle, the business already has a first version of the project, which will be improved with each cycle, to assist in decision making.
+
+![endto](https://github.com/adrielepinto/clustering/assets/97919969/8e3b901e-a424-4b1d-8d62-252444396c2d)
+
+
+## 2.1 Solution Development
  - 1.0  Train a Machine Learning to define a metric to verify the model performance.
  - 2.0 Filter the variables that best fit to the model.
  - 3.0 Try to create features that will help the model perform.
