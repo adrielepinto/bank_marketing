@@ -116,13 +116,21 @@ False - 21% of customers are using the card just to borrow cash.
  - Gaussian Mixture Model (GMM)
  - 
 ## 7.0 Machine Learning Models Performance
+
+The metric used to measure the performance of the models was the [Davies-Bouldin score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.davies_bouldin_score.html#:~:text=Compute%20the%20Davies%2DBouldin%20score,result%20in%20a%20better%20score.).
+
+The score is defined as the average similarity measure of each cluster with its most similar cluster, where similarity is the ratio of within-cluster distances to between-cluster distances.
+
+- For this metric the closier score to Zero is better.
+
 <img width="1295" alt="Screen Shot 2023-09-30 at 5 24 09 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/e90a086b-d2a6-4d96-a528-c351340672e6">
+
+The picture shows the score for each number of cluster of each model testes
 
 <img width="757" alt="Screen Shot 2023-09-30 at 5 21 22 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/63c46c22-f090-4f7c-9685-17ac7347441a">
 
-The model performance result is separated from the database into nine clusters, according to the similarities of each customer. Towards of all tested machine learning tools, the GMMM has showed a good metric for the nine clusters. However, the Davies-Bouldin metric presents a considerably excellent performance in comparison with the other tested models. HC and KMeans also performed considerably well, but unfortunately these values are for fifteen clusters, which will make it difficult for the market team to manage so many clusters. Therefore, the model applied for the final clustering is the Davies-Bouldin score.
-
-
+ Towards of all tested machine learning tools, the Kmeans showed a score of 0.74, ultilizando 8 clusters. 
+ 
 # 8.0 Model Performance Results
 <img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png">
 
