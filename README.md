@@ -131,8 +131,9 @@ The picture shows the score for each number of cluster of each model testes
 
  Towards of all tested machine learning tools, the Kmeans showed a score of 0.74, ultilizando 8 clusters. 
  
+
 # 8.0 Model Performance Results
-<img width="430" alt="Screen Shot 2023-02-16 at 4 58 53 PM" src="https://user-images.githubusercontent.com/97919969/219522478-60c3161b-5b9e-4ab2-8d74-e905396a2568.png">
+<img width="504" alt="Screen Shot 2023-09-30 at 5 41 39 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/6e0f01c2-3a61-450e-b16e-fe94acceeb95">
 
 This is the real result of how much return each cluster will bring to the company. In view of this, it is easy to identify which customers actually pay the company's bills.
 
