@@ -1,7 +1,7 @@
 # Bank Marketing Strategy
 ![banking](https://user-images.githubusercontent.com/97919969/219498934-7402fc5d-32fd-4a46-a425-6152d24827c3.jpeg)
 
-NOTE: The business context is fictitious, however all planning and development of the solution is implemented following all the steps of a real market project. You can follow the entire development of the project on notebook [c9.0-pa006-EDA.ipynb](https://github.com/adrielepinto/bank_marketing/blob/bank/notebooks/c9.0-pa006-EDA.ipynb)
+NOTE: The business context is fictitious, however all planning and development of the solution is implemented following all the steps of a real market project. You can follow the entire development of the project on notebook [c9.0-pa006-EDA.ipynb](https://github.com/adrielepinto/bank_marketing/blob/bank/notebooks/c9.0-pa006-EDA.ipynb) .
 
 # 1.0  Business Problem
 
@@ -134,8 +134,15 @@ The picture shows the score for each number of cluster of each model testes
 
 # 8.0 Model Performance Results
 
+Note; The table is a litle large, so it wasn't possible to show here but you will be able to see the full table at notebook [c9.0-pa006-EDA.ipynb](https://github.com/adrielepinto/bank_marketing/blob/bank/notebooks/c9.0-pa006-EDA.ipynb) .
+
 <img width="1221" alt="Screen Shot 2023-09-30 at 6 34 38 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/3d3e3ad1-f090-4268-b66d-06ed8f2a686b">
 
+- Cluster 2 - Has the highest frequency, but buys cheap products.
+- Cluster 3 - It has customers who bring more revenue to the company and who receive more cash advances. - Increase card limits for these customers.
+- Cluster 4 - has the highest percentage of customers- Offer cash back in order to increase the frequency of these customers.
+- Cluster 6 - Has customers who hardly make purchases and collect cash adv - Offer more products to these customers
+- Cluster 7 - It has customers who make more purchases with their cards, but only buy cheap things.
 
 <img width="504" alt="Screen Shot 2023-09-30 at 5 41 39 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/6e0f01c2-3a61-450e-b16e-fe94acceeb95">
 
@@ -144,14 +151,15 @@ This is the real result of how much return each cluster will bring to the compan
 
 
 # 9.0  Business Levers:
-- 1. There are 1642 customers who use their credit card just for purchases only. The Marketing team could offer/create loan services instead of offering credit cards to these customers. in which will lower the cost of acquiring more cards.
 
-- Cluster 0 are the customers who buy the most quantity of products, however it is the one that brings the least value of revenue to the company. These customers are likely to buy cheap products, so the marketing team could offer slightly higher priced products to increase the bank's revenue.
-
-- 2. The cluster classified as 5 represents 36% of the company's revenue. The Marketing team could offer awards or cash back to retain these customers.
+- Cluster 3 - It has customers who bring more revenue to the company and who receive more cash advances. - Increase card limits for these customers.
+- Cluster 4 - has the highest percentage of customers- Offer cash back in order to increase the frequency of these customers.
+- Cluster 3,4 _ has the highest return to the company - First leverage customers, and then care about uothers.
  
 
 # 1.0 Tools:
 - Jupyter Notebook
 - Python
 - Pandas, Numpy, Sklearn, Seaborn, Matplotlib Libraries
+
+Thank You  so much for reand my project. If you have any question about the projet, feel free to contact me at [LinkedIN](https://www.linkedin.com/in/adriele-pinto/) !
