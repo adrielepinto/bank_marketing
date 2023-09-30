@@ -133,7 +133,12 @@ The picture shows the score for each number of cluster of each model testes
  
 
 # 8.0 Model Performance Results
+
+<img width="1221" alt="Screen Shot 2023-09-30 at 6 34 38 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/3d3e3ad1-f090-4268-b66d-06ed8f2a686b">
+
+
 <img width="504" alt="Screen Shot 2023-09-30 at 5 41 39 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/6e0f01c2-3a61-450e-b16e-fe94acceeb95">
+
 
 This is the real result of how much return each cluster will bring to the company. In view of this, it is easy to identify which customers actually pay the company's bills.
 
