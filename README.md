@@ -12,7 +12,9 @@ The company has a set of data on the usage behavior of approximately 9000 active
 Therefore, it was decided to create a customer segmentation that will direct the marketing strategy and the expected results of this work are:
 
 - 1.Create customer segmentation based on clear selection criteria.
+  
 - 2. Make customer segmentation accessible to the operations team.
+    
 - 3. Recommend 2-3 business levers for each customer segment.
  
 ## 1.1 Business Understanding
@@ -27,6 +29,28 @@ Root Cause of the Problem: Why carry out this project?
 
 ## 1.2 Data
 The data for this project is available on the [Kaggle platform](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset).
+
+### 1.2.1 Attribute List:
+
+###### - ID : Unique Identification Code of Credit Card holder.
+###### - BALANCE : How much the customer spent on the credit card.
+###### - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
+###### - PURCHASES : Amount of purchases made from account.
+###### - ONE_PURCHASES : Purchase amount done in one-go. 1X
+###### - INSTALl_PURCHASES : Amount of purchase done in installment.
+###### - CASH_ADV : Cash in advance given by the user. ( Loan )
+###### - PURCHASES_FREQ : How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
+###### - ONE_PURCHASES_FREQ : How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
+###### - PURCHASES_INSTALL_FREQ : How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
+###### - CASH_ADV_FREQ : How frequently the cash in advance being paid
+###### - CASH_ADVANCE_TRX : Number of Transactions made with "Cash in Advanced"
+###### - PURCHASES_TRX : Numbe of purchase transactions made.
+###### - CREDIT_LIMIT : Limit of Credit Card for user.
+###### - PAYMENTS : Amount of Payment done by user.( The amount paid in excess of the invoice minimum )
+###### - MIN_PAYMENTS : Minimum amount of payments made by user
+###### - FULL_PAYMENT : Percent of full payment paid by user
+###### - TENURE : Tenure of credit card service for user
+
 
 # 2.0 Solution Planning
  
@@ -51,35 +75,20 @@ In the first cycle of the project, surface cleaning is carried out, an algorithm
  - 10.0 criate the architecture at AWS and  put the model into production.
  - 11.0 Teach the team how to use the model
 
-# Attribute List:
-###### - ID : Unique Identification Code of Credit Card holder.
-###### - BALANCE : How much the customer spent on the credit card.
-###### - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
-###### - PURCHASES : Amount of purchases made from account.
-###### - ONE_PURCHASES : Purchase amount done in one-go. 1X
-###### - INSTALl_PURCHASES : Amount of purchase done in installment.
-###### - CASH_ADV : Cash in advance given by the user. ( Loan )
-###### - PURCHASES_FREQ : How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
-###### - ONE_PURCHASES_FREQ : How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
-###### - PURCHASES_INSTALL_FREQ : How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
-###### - CASH_ADV_FREQ : How frequently the cash in advance being paid
-###### - CASH_ADVANCE_TRX : Number of Transactions made with "Cash in Advanced"
-###### - PURCHASES_TRX : Numbe of purchase transactions made.
-###### - CREDIT_LIMIT : Limit of Credit Card for user.
-###### - PAYMENTS : Amount of Payment done by user.( The amount paid in excess of the invoice minimum )
-###### - MIN_PAYMENTS : Minimum amount of payments made by user
-###### - FULL_PAYMENT : Percent of full payment paid by user
-###### - TENURE : Tenure of credit card service for user
 
-# Assumptions:
+
+# 3.0 Business Assumptions:
 
 
 - NA - Minimum Payment had 313 NA's, I assumed as 0 for not lose 313 customers whitch can be valueble customer.
+  
 - Gross Revenue Variable - I calculated gross revenue assuming that the bank receives 3% of the value of each transaction.
+  
 - Outliers - On Outliers analysis, I I found very disbelieving values, such as customers who paid a minimum payment about of 8k, whitch doesn't make sense, since theres no payments made over than 50721.48. So, for a best model acuracy I removed the outliers.
+  
 - The feature selection was made by using the correlation map.
 
-# Three Data Insigths
+# 4.0  Three Data Insigths
 
 
 H3. 90% of customers using the credit card.
@@ -105,6 +114,7 @@ False - 21% of customers are using the card just to borrow cash.
  - DBScan
  - Hierarchical (HC); 
  - Gaussian Mixture Model (GMM)
+ - 
 # Machine Learning Models Performance
 <img width="1051" alt="Screen Shot 2023-02-16 at 4 12 48 PM" src="https://user-images.githubusercontent.com/97919969/219516779-ecb096fa-bd02-4816-9cfb-7ec2c37815cf.png">
 
