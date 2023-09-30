@@ -116,8 +116,9 @@ False - 21% of customers are using the card just to borrow cash.
  - Gaussian Mixture Model (GMM)
  - 
 ## 7.0 Machine Learning Models Performance
-<img width="1051" alt="Screen Shot 2023-02-16 at 4 12 48 PM" src="https://user-images.githubusercontent.com/97919969/219516779-ecb096fa-bd02-4816-9cfb-7ec2c37815cf.png">
+<img width="1295" alt="Screen Shot 2023-09-30 at 5 24 09 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/e90a086b-d2a6-4d96-a528-c351340672e6">
 
+<img width="757" alt="Screen Shot 2023-09-30 at 5 21 22 PM" src="https://github.com/adrielepinto/bank_marketing/assets/97919969/63c46c22-f090-4f7c-9685-17ac7347441a">
 
 The model performance result is separated from the database into nine clusters, according to the similarities of each customer. Towards of all tested machine learning tools, the GMMM has showed a good metric for the nine clusters. However, the Davies-Bouldin metric presents a considerably excellent performance in comparison with the other tested models. HC and KMeans also performed considerably well, but unfortunately these values are for fifteen clusters, which will make it difficult for the market team to manage so many clusters. Therefore, the model applied for the final clustering is the Davies-Bouldin score.
 
