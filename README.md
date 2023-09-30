@@ -1,8 +1,9 @@
 # Bank Marketing Strategy
 ![banking](https://user-images.githubusercontent.com/97919969/219498934-7402fc5d-32fd-4a46-a425-6152d24827c3.jpeg)
 
+NOTE: The business context is fictitious, however all planning and development of the solution is implemented following all the steps of a real market project. You can follow the entire development of the project on notebook [c9.0-pa006-EDA.ipynb](https://github.com/adrielepinto/bank_marketing/blob/bank/notebooks/c9.0-pa006-EDA.ipynb)
 
-# Business Problem
+# 1.0  Business Problem
 A leading bank wants to develop a customer segmentation to launch marketing campaign to specific group of customers. The bank has provided a Dataset summarized the usage behavior of about 9000 active credit card holders during the last 6 months.
 
  # Solution Strategy
