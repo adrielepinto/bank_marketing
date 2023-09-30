@@ -32,24 +32,24 @@ The data for this project is available on the [Kaggle platform](https://www.kagg
 
 ### 1.2.1 Attribute List:
 
-###### - ID : Unique Identification Code of Credit Card holder.
-###### - BALANCE : How much the customer spent on the credit card.
-###### - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
-###### - PURCHASES : Amount of purchases made from account.
-###### - ONE_PURCHASES : Purchase amount done in one-go. 1X
-###### - INSTALl_PURCHASES : Amount of purchase done in installment.
-###### - CASH_ADV : Cash in advance given by the user. ( Loan )
-###### - PURCHASES_FREQ : How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
-###### - ONE_PURCHASES_FREQ : How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
-###### - PURCHASES_INSTALL_FREQ : How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
-###### - CASH_ADV_FREQ : How frequently the cash in advance being paid
-###### - CASH_ADVANCE_TRX : Number of Transactions made with "Cash in Advanced"
-###### - PURCHASES_TRX : Numbe of purchase transactions made.
-###### - CREDIT_LIMIT : Limit of Credit Card for user.
-###### - PAYMENTS : Amount of Payment done by user.( The amount paid in excess of the invoice minimum )
-###### - MIN_PAYMENTS : Minimum amount of payments made by user
-###### - FULL_PAYMENT : Percent of full payment paid by user
-###### - TENURE : Tenure of credit card service for user
+- ID : Unique Identification Code of Credit Card holder.
+ - BALANCE : How much the customer spent on the credit card.
+ - BALANCE_FREQ : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated).
+ - PURCHASES : Amount of purchases made from account.
+- ONE_PURCHASES : Purchase amount done in one-go. 1X
+- INSTALl_PURCHASES : Amount of purchase done in installment.
+ - CASH_ADV : Cash in advance given by the user. ( Loan )
+ - PURCHASES_FREQ : How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
+ - ONE_PURCHASES_FREQ : How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
+ - PURCHASES_INSTALL_FREQ : How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
+ - CASH_ADV_FREQ : How frequently the cash in advance being paid
+ - CASH_ADVANCE_TRX : Number of Transactions made with "Cash in Advanced"
+ - PURCHASES_TRX : Numbe of purchase transactions made.
+ - CREDIT_LIMIT : Limit of Credit Card for user.
+ - PAYMENTS : Amount of Payment done by user.( The amount paid in excess of the invoice minimum )
+- MIN_PAYMENTS : Minimum amount of payments made by user
+- FULL_PAYMENT : Percent of full payment paid by user
+ - TENURE : Tenure of credit card service for user
 
 
 # 2.0 Solution Planning
